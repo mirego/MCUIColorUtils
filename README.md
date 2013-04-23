@@ -5,27 +5,33 @@ MCUIColorUtils extends [`UIColor`](http://developer.apple.com/library/ios/#docum
 ## Using
 
 ```objective-c
-// Use colors straight from the web
-[UIColor colorForHex:@"#fafbfc"];
+#import "UIColor+MCUIColorsUtils.h"
 
-// ... if you prefer you can go with bytes
-[UIColor colorWithHexRGB:0xfafbfc];
-[UIColor colorWithHexRGBA:0xfafbfcff];
+- (void)funWithColors
+{
 
-// ...or with 0-255 values
-[UIColor colorWithIntegerRed:250 green:251 blue:252];
-[UIColor colorWithIntegerRed:250 green:251 blue:252 alpha:255];
+  // Use colors straight from the web
+  [UIColor colorForHex:@"#fafbfc"];
 
-// ...or if all the channels are the same
-[UIColor colorWithGray:0.980392157]; // 250/255=0.980392157
-[UIColor colorWithIntegerGray:250];  // #fafafa
+  // ... if you prefer you can go with bytes
+  [UIColor colorWithHexRGB:0xfafbfc];
+  [UIColor colorWithHexRGBA:0xfafbfcff];
 
-// Get a lighter color
-UIColor color* = [UIColor colorForHex:@"#123456"];
-[color colorWithMultiplier:1.10]; // 110% of rgb channels
+  // ...or with 0-255 values
+  [UIColor colorWithIntegerRed:250 green:251 blue:252];
+  [UIColor colorWithIntegerRed:250 green:251 blue:252 alpha:255];
 
-// ... or a darker color
-[color colorWithMultiplier:0.90]; // 90% of rgb channels
+  // ...or if all the channels are the same
+  [UIColor colorWithGray:0.980392157]; // 250/255=0.980392157
+  [UIColor colorWithIntegerGray:250];  // #fafafa
+
+  // Get a lighter color
+  UIColor color* = [UIColor colorForHex:@"#123456"];
+  [color colorWithMultiplier:1.10]; // 110% of rgb channels
+
+  // ... or a darker color
+  [color colorWithMultiplier:0.90]; // 90% of rgb channels
+}
 ```
 
 
@@ -42,6 +48,6 @@ Don't forget to `#import "UIColor+MCUIColorsUtils.h"` where it's needed.
 
 ## License
 
-MCUIColorUtils is © 2013 [Mirego](http://www.mirego.com) and may be freely distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause). See the [`LICENSE.md`](https://github.com/mirego/MCUIColorUtils.iOS/blob/master/LICENSE.md) file. 
+MCUIColorUtils is © 2013 [Mirego](http://www.mirego.com) and may be freely distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause). See the [`LICENSE.md`](https://github.com/mirego/MCUIColorUtils.iOS/blob/master/LICENSE.md) file.
 
 
