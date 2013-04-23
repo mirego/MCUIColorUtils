@@ -1,4 +1,4 @@
-// Copyright (c) 2013, Mirego, Inc.
+// Copyright (c) 2013, Mirego
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -9,7 +9,7 @@
 // - Redistributions in binary form must reproduce the above copyright notice,
 //   this list of conditions and the following disclaimer in the documentation
 //   and/or other materials provided with the distribution.
-// - Neither the name of the Mirego, Inc. nor the names of its contributors may
+// - Neither the name of the Mirego nor the names of its contributors may
 //   be used to endorse or promote products derived from this software without
 //   specific prior written permission.
 //
@@ -29,17 +29,16 @@
 
 @interface UIColor (MCUIColorsUtils)
 
-/////////////////////////////////////////////////////
+//-----------------------------------------------------------------------------
 #pragma mark macros for generating colors
-/////////////////////////////////////////////////////
-
+//-----------------------------------------------------------------------------
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 #define HEXCOLOR(c,a) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:((c>>0)&0xFF)/255.0 alpha:a]
 
-/////////////////////////////////////////////////////
+//-----------------------------------------------------------------------------
 #pragma mark methods for modifying colors
-/////////////////////////////////////////////////////
+//-----------------------------------------------------------------------------
 
 + (UIColor *) colorForHex:(NSString*)hex;
 
