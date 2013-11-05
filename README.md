@@ -1,4 +1,6 @@
 # MCUIColorUtils - UIColor missing methods.
+[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/MCUIColorUtils/badge.png)](https://cocoadocs.org/docsets/MCUIColorUtils)
+[![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/MCUIColorUtils/badge.png)](https://cocoadocs.org/docsets/MCUIColorUtils)
 
 MCUIColorUtils extends [`UIColor`](http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIColor_Class/Reference/Reference.html)
 to add some convenience methods.
