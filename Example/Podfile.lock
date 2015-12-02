@@ -1,0 +1,14 @@
+PODS:
+  - MCUIColorUtils (1.0.1)
+
+DEPENDENCIES:
+  - MCUIColorUtils (from `../`)
+
+EXTERNAL SOURCES:
+  MCUIColorUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCUIColorUtils: d99a916bf2eacff39009e2a291fdea5d0de423a4
+
+COCOAPODS: 0.39.0

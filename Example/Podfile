@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MCUIColorUtils_Example', :exclusive => true do
+  pod "MCUIColorUtils", :path => "../"
+end
+
+target 'MCUIColorUtils_Tests', :exclusive => true do
+  pod "MCUIColorUtils", :path => "../"
+end
