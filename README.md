@@ -55,7 +55,7 @@ Don't forget to `#import "UIColor+MCUIColorsUtils.h"` where it's needed.
 
 MCUIColorUtils is © 2013-2015 [Mirego](http://www.mirego.com) and may be freely
 distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
-See the [`LICENSE.md`](https://github.com/mirego/MCUIColorUtils/blob/master/LICENSE.md) file.
+See the [`LICENSE`](https://github.com/mirego/MCUIColorUtils/blob/master/LICENSE) file.
 
 ## About Mirego
 
